@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="app_name">Авто-каталог</string>
+    <string name="menu_settings">Настройки</string>
+    <string name="show_password">Показать пароль</string>
+    <string name="hide_password">Скрыть пароль</string>
+    <string name="title_activity_main">Вход в систему</string>
+    <string name="title_activity_tree">Авто-каталог</string>
+    
+    <string name="login_prompt">Логин:</string>
+    <string name="password_prompt">Пароль:</string>
+    <string name="login_action">Войти</string>
+    <string name="carbrand_prompt">Эмблема</string>
+    
+    <string name="correct_login_message">Логин и пароль верны</string>
+    <string name="incorrect_emailformat_message">Логин не является корректным email-ом</string>
+    <string name="incorrect_login_message">Логин и/или пароль не верны</string>
+    <string name="car_details_image_description">Изображение</string>
+    <string name="title_activity_fragment_item">Обзор</string>
+
+</resources>

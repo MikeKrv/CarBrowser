@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Car Browser</string>
+    <string name="menu_settings">Settings</string>
+    <string name="show_password">Show Password</string>
+    <string name="hide_password">Hide Password</string>
+    <string name="title_activity_main">Login</string>
+    <string name="title_activity_tree">Browse Cars</string>
+    <string name="login_prompt">Login:</string>
+    <string name="password_prompt">Password:</string>
+    <string name="login_action">Login</string>
+    <string name="carbrand_prompt">Symbol</string>
+    <string name="correct_login_message">Login and password are correct</string>
+    <string name="incorrect_emailformat_message">Login doesn&quot;t have valid email format</string>
+    <string name="incorrect_login_message">Login and password are not correct</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_fragment">FragmentActivity</string>
+    <string name="title_activity_fragment_item">Overview model</string>
+    <string name="car_classification">Classification:</string>
+    <string name="car_description">Description:</string>
+    <string name="car_details_image_description">Image</string>
+
+</resources>

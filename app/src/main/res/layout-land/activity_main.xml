@@ -1,0 +1,68 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:shrinkColumns="*"
+    android:stretchColumns="*" >
+
+    <TableRow android:gravity="left" >
+
+        <TextView
+            android:id="@+id/loginTextView"
+            style="@style/Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/login_prompt" />
+
+        <EditText
+            android:id="@+id/loginEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dip"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textEmailAddress" >
+
+            <requestFocus />
+        </EditText>
+    </TableRow>
+
+    <TableRow android:gravity="left" >
+
+        <TextView
+            android:id="@+id/passwordTextView"
+            style="@style/Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="@string/password_prompt" />
+
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dip"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textPassword" />
+    </TableRow>
+
+    <TableRow android:gravity="center_horizontal" >
+
+        <FrameLayout
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="50dip"
+            android:layout_span="3" >
+
+            <Button
+                android:id="@+id/loginButton"
+                android:layout_width="300dp"
+                android:layout_height="fill_parent"
+                android:text="@string/login_action" />
+        </FrameLayout>
+    </TableRow>
+
+</TableLayout>

@@ -1,0 +1,11 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme.Olive" parent="android:Theme.Holo">
+        <item name="android:background">@color/background</item>
+    </style>
+
+    <style name="Text">
+        <item name="android:textColor">@color/olive</item>
+    </style>
+
+</resources>
